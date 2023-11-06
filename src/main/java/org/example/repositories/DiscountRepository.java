@@ -1,6 +1,6 @@
-package com.example.hotelreservationsystem.repositories;
+package org.example.repositories;
 
-import com.example.hotelreservationsystem.models.Discount;
+import org.example.models.Discount;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
