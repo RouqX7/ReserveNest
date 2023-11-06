@@ -1,9 +1,9 @@
 package org.example.controllers;
 
-import com.example.hotelreservationsystem.models.Discount;
-import com.example.hotelreservationsystem.models.DiscountType;
-import com.example.hotelreservationsystem.models.Reservation;
-import com.example.hotelreservationsystem.services.DiscountService;
+import org.example.models.Discount;
+import org.example.models.DiscountType;
+import org.example.models.Reservation;
+import org.example.services.DiscountService;
 
 import java.util.List;
 

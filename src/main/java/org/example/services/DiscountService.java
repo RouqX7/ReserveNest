@@ -1,9 +1,11 @@
 package org.example.services;
 
-import com.example.hotelreservationsystem.models.Discount;
-import com.example.hotelreservationsystem.models.DiscountType;
-import com.example.hotelreservationsystem.models.Reservation;
-import com.example.hotelreservationsystem.repositories.DiscountRepository;
+import org.example..models.Discount;
+import org.example..models.DiscountType;
+import org.example.models.Discount;
+import org.example.models.DiscountType;
+import org.example.models.Reservation;
+import org.example..repositories.DiscountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -13,7 +15,6 @@ public class DiscountService {
 
     //If this is made into a web app it will have spring web annotations to handle Http requests
 
-    // A thread-safe list to hold discounts. This is for example purposes only.
     private final DiscountRepository discountRepository;
 
     @Autowired
@@ -29,6 +30,7 @@ public class DiscountService {
     public List<Discount> getActiveDiscounts() {
         return discountRepository.findAllByIsActive(true);
     }
+
 
     public Discount createDiscount(String code, String name, String description, DiscountType discountType, double value, Discount.DiscountCriteria criteria) {
         // Assuming 'Discount' class has a constructor that accepts 'criteria' and 'active' status is managed separately or within criteria
