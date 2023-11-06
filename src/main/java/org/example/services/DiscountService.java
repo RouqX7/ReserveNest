@@ -1,4 +1,4 @@
-package com.example.hotelreservationsystem.services;
+package org.example.services;
 
 import com.example.hotelreservationsystem.models.Discount;
 import com.example.hotelreservationsystem.models.DiscountType;

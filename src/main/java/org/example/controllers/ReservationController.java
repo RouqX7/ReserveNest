@@ -1,4 +1,4 @@
-package com.example.hotelreservationsystem.controllers;
+package org.example..controllers;
 
 import com.example.hotelreservationsystem.models.Discount;
 import com.example.hotelreservationsystem.models.Reservation;

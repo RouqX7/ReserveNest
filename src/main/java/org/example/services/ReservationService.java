@@ -1,8 +1,8 @@
 package org.example.services;
 
-import org.example..models.Discount;
-import org.example..models.Reservation;
-import org.example..repositories.ReservationRepository;
+import org.example.models.Discount;
+import org.example.models.Reservation;
+import org.example.repositories.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

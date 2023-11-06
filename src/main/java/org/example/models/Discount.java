@@ -1,4 +1,4 @@
-package com.example.hotelreservationsystem.models;
+package org.example.models;
 
 
 import jakarta.persistence.Embedded;
