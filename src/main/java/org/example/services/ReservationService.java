@@ -1,8 +1,8 @@
-package com.example.hotelreservationsystem.services;
+package org.example.services;
 
-import com.example.hotelreservationsystem.models.Discount;
-import com.example.hotelreservationsystem.models.Reservation;
-import com.example.hotelreservationsystem.repositories.ReservationRepository;
+import org.example..models.Discount;
+import org.example..models.Reservation;
+import org.example..repositories.ReservationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
